@@ -175,7 +175,7 @@ if __name__ == '__main__':
     #
     # # ./gestures/test/G5/IMG_1204.JPG
     # result = RunModel.predict(model_type="VGG16", img_file="file/hand_gestures/test/G5/IMG_1204.JPG")
-    # print("dl cnn result:\n", result)
+    # print("dl VGG16 result:\n", result)
     ### end VGG16
 
     ### begin ResNet50
@@ -184,7 +184,7 @@ if __name__ == '__main__':
 
     # ./gestures/test/G5/IMG_1204.JPG
     result = RunModel.predict(model_type="ResNet50", img_file="file/hand_gestures/test/G5/IMG_1204.JPG")
-    print("dl cnn result:\n", result)
+    print("dl ResNet50 result:\n", result)
     ### end ResNet50
 
     ############### end 测试 dl cnn ################
